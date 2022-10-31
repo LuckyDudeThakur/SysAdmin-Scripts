@@ -1,4 +1,5 @@
 #! /bin/bash
+set -euxo pipefail
 
 echo "*************" >>/home/thakur/Documents/speedtestDaily.log
 date >>/home/thakur/Documents/speedtestDaily.log
