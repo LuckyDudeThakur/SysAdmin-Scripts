@@ -1,8 +1,9 @@
 #! /bin/bash
 set -euxo pipefail
 
-echo "*************" >>/home/thakur/Documents/speedtestDaily.log
-date >>/home/thakur/Documents/speedtestDaily.log
-speedtest-cli >>/home/thakur/Documents/speedtestDaily.log
-echo "*************" >>/home/thakur/Documents/speedtestDaily.log
-echo "             " >>/home/thakur/Documents/speedtestDaily.log
+echo ~
+echo "*************" >>~/Documents/speedtestDaily.log
+date >>~/Documents/speedtestDaily.log
+speedtest-cli >>~/Documents/speedtestDaily.log
+echo "*************" >>~/Documents/speedtestDaily.log
+echo "             " >>~/Documents/speedtestDaily.log
